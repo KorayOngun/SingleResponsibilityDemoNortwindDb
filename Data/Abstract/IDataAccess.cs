@@ -10,6 +10,6 @@ namespace SingleResponsibility.Data.Abstract
     public interface IDataAccess
     {
         int AddItem(string command, Dictionary<string, object> param);
-        IEnumerable<SqlDataReader> GetItems(string command);
+        IEnumerable<SqlDataReader> GetItems(string command); 
     }
 }
